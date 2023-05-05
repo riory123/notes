@@ -1,0 +1,32 @@
+<?php
+    $title = "Главная";
+    require "block/start.php";
+?>
+<?php if($_COOKIE['auto'] == ""): ?>
+    <?php require "block/rrr.php"; ?>
+<?php else: ?>
+
+
+        <?php 
+        
+            $log = $_COOKIE['auto'];
+            $results = $mysql->query("SELECT * FROM `users` WHERE `login` = '$log'");
+
+            $d = $results->fetch_assoc();
+
+            echo '<div style="text-align:center; font-size:48px;">Здравствуйте, <b>'.$d['name'].' !</b></div><br><br><br>';
+
+            $results1 = $mysql->query("SELECT * FROM `$log`");
+
+            echo '<div class="iii">Ваш логин: <b>'.$log.'</b></div><br>';
+
+            $kolvo = $results1->num_rows;
+            echo '<div class="iii">Количество заметок: '.$kolvo.'</div><br>';
+        
+        ?>
+
+
+<?php endif ?>
+<?php
+    require "block/footer.php";
+?>

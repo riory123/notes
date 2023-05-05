@@ -1,0 +1,237 @@
+body{
+    margin: 0px;
+    /*background-image: url(img/fon_one.png);*/
+}
+li{
+    margin: 10px;
+}
+.shap{
+    background-image: url(img/shapka.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: #ff6363;
+    text-decoration:underline;
+}
+.nav{
+    width: 15%;
+    display: flex;
+    font-size: 36px;
+    align-items: center;
+    flex-direction: column;
+    border-right: 5px solid black;
+    min-width: 260px;
+}
+.navig{
+    margin-top: 30px;
+    text-decoration: none;
+    color: black;
+    border: 3px solid black;
+    text-align: center;
+    background: #525252;
+    width: 80%;
+    transition-duration: 0.4s;
+}
+.navig:hover{
+    color: white;
+    width: 100%;
+    border-left: none;
+    border-right: none;
+}
+.flex{
+    display: flex;
+}
+#txt{
+    margin: 60px;
+}
+.coll{
+    justify-content: space-around;
+    width: 70%;
+    height: 70vh;
+}
+.coll2{
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    width: 15%;
+    flex-direction: column;
+    border-left: 5px solid black;
+}
+.navig2{
+    margin-top: 30px;
+    text-decoration: none;
+    color: black;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    text-align: center;
+    width: 80%;
+}
+.but_nav{
+    display: flex;
+    justify-content: space-around;
+}
+.but{
+    width: 100%;
+    padding: 20px;
+    background: rgb(0, 156, 0);
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 24px;
+    transition-duration: 0.2s;
+}
+.but:hover{
+    background-color: #d2d2d2;
+}
+.otp{
+    font-size: 24px;
+    padding: 10px;
+    background: green;
+    color: white;
+    width: 80%;
+}
+.j{
+    height: 200px;
+    width: 200px;
+    background: black;
+}
+#form_k{
+    font-size: 24px;
+    padding: 10px;
+    width: 400px;
+    text-align: center;
+    background: #00c92c;
+    border: 3px solid black;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+#form_k:hover{
+    background: #008f1f;
+    color: white;
+}
+#form_i{
+    font-size: 24px;
+    padding: 10px;
+    width: 400px;
+}
+.error{
+    color: red;
+    font-size: 20px;
+}
+.namm{
+    font-size: 60px;
+}
+.ex{
+    font-size: 30px;
+    text-decoration: none;
+    border: 3px solid black;
+    background: red;
+    padding: 10px;
+    color: black;
+    transition-duration: 0.2s;
+    margin-top: 5vh;
+}
+.ex:hover{
+    color: white;
+}
+#all{
+    overflow: auto;
+    height: 45vh;
+}
+.ot_z{
+    display: flex;
+    width: 92%;
+    height: 20vh;
+    min-width: 19%;
+    margin: 2%;
+    border: 5px solid black;
+    border-radius: 20px;
+    padding: 5px;
+    font-size: 24px;
+    background: linear-gradient(to right,#09adf3,#0fe);
+    flex-direction: row;
+}
+.asd{
+    margin: 20px;
+    text-align: center;
+    word-wrap: break-word;
+}
+.one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+}
+.two{
+    width: 70%;
+    overflow: auto;
+    height: 16vh;
+}
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #cecece;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #474747;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #959595;
+}
+.three{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5vh;
+    border: 5px solid rgb(228, 0, 0);
+    background: rgb(228, 0, 0);
+    border-radius: 10px;
+    margin: 5px;
+    height: 19vh;
+    font-size: 36px;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+.three:hover{
+    border: 5px solid rgb(170, 0, 0);
+    background: rgb(170, 0, 0);
+}
+.four{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5vh;
+    border: 5px solid #ff8f27;
+    background: #ff8f27;
+    border-radius: 10px;
+    margin: 5px;
+    height: 19vh;
+    font-size: 36px;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+.four:hover{
+    background: #d36600;
+    border: 5px solid #d36600;
+}
+.izm1{
+    width: 80%;
+    height: 3vh;
+    padding: 10px;
+    font-size: 36px;
+    border: 2px solid black;
+}
+.izm2{
+    width: 80%;
+    height: 20vh;
+    font-size: 24px;
+    padding: 10px;
+    border: 2px solid black;
+}
+.iii{
+    font-size: 24px;
+}
